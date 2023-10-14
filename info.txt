@@ -1,0 +1,4 @@
+- Gc::Ptr - just a fancy pointer, that shows that this object is allocated via GC. Also protection from arithmetic.
+            Also reinterpret cast stuff.
+- Gc::MemoryManager - class that is responsible for memory management (allocating, deallocating and garbage collecting).
+- Gc::Managed - class that all managed objects should inherit from.

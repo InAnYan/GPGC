@@ -1,0 +1,5 @@
+- when to allocate? budget? objects count?
+- parallel?
+- work list?
+- assertions about growth factor?
+- protect stack?
