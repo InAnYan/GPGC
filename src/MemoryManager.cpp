@@ -92,7 +92,6 @@ namespace Gc
                 }
                 
                 delete obj.ptr;
-                --objectsCount;
                 
                 obj = next;
             }

@@ -3,3 +3,4 @@
 - work list?
 - assertions about growth factor?
 - protect stack?
+- objectsCount ++ and then the collectgarbage or vice versa?

@@ -28,7 +28,7 @@ namespace Gc
         template <typename T, typename... Args>
         Ptr<T> Allocate(Args&&... args)
         {
-            ++objectsCount;
+            objectsCount++;
             CollectGarbageIfNeeded();
             
             T* rawPtr = new T(objects, std::forward<Args&&>(args)...);
